@@ -1,0 +1,104 @@
+@media screen and (max-width:2560px) {
+    .trick2__wrapper {
+        height: 90%;
+    }
+}
+@media screen and (max-width:1440px) {
+    
+}
+@media screen and (max-width:1024px) {
+    .trick2__wrapper {
+        height: 80%;
+    }
+}
+@media screen and (max-width:768px) {
+    .content__trickIMG {
+        width: 30px;
+        height: 30px;
+    }
+    .content__trickIMG-hovered {
+        width: 30px;
+        height: 30px;
+    }
+    .trick1__wrapper {
+        width: 62%;
+        height: 62%;
+    }
+    .trick2__main {
+        width: 62%;
+        height: 62%;
+    }
+    .trick2__wrapper {
+        height: 66%;
+    }
+    .trick3__main {
+        width: 62%;
+        height: 62%;
+    }
+    .trick4__main {
+        width: 62%;
+        height: 62%;
+    }
+ 
+    .trick5__main {
+        width: 62%;
+        height: 62%;
+    }
+    .trick6__main {
+        width: 62%;
+        height: 62%;
+    }
+
+}
+@media screen and (max-width:425px) {
+    .content__trickIMG {
+        width: 20px;
+        height: 20px;
+    }
+    .content__trickIMG-hovered {
+        width: 20px;
+        height: 20px;
+    }
+    .trick1__wrapper {
+        width: 60%;
+        height: 60%;
+    }
+    .trick2__main {
+        width: 60%;
+        height: 60%;
+    }
+    .trick2__wrapper {
+        height: 64%;
+    }
+    .trick3__main {
+        width: 60%;
+        height: 60%;
+    }
+    .trick4__main {
+        width: 60%;
+        height: 60%;
+    }
+
+    .trick5__main {
+        width: 60%;
+        height: 60%;
+    }
+    .trick6__main {
+        width: 60%;
+        height: 60%;
+    }
+}
+@media screen and (max-width:375px) {
+    .trick2__wrapper {
+        height: 60%;
+    }
+}
+@media screen and (max-width:320px) {
+    .trick1__wrapper {
+        width: 50%;
+        height: 40%;
+    }
+    .trick6__wrapper {
+        height: 60%;
+    }
+}
