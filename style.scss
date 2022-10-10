@@ -19,7 +19,10 @@
 }
 
 body {
+
     height: 100vh;
+    font-family: RussoOne;
+    color: white;
 }
 
 a {
@@ -27,18 +30,13 @@ a {
     color: inherit;
 }
 
-
-.wrapper {
-    font-family: RussoOne;
-    color: white;
-
-}
 .header {
     background-color: var(--headerBGC);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 6%;
+    height: 20%;
 
     &__buttons {
         display: flex;
@@ -61,14 +59,18 @@ a {
 .content {
     display: flex;
     flex-direction: row;
+    height: 60%;
 
 
 		&__menu {
             width: 20%;
             background-color:var(--menuBGC);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
 
             .menu__item {
-                padding: 10%;
+                padding: 5%;
                 text-align: center;
                 white-space: nowrap;
                 cursor: pointer;
@@ -91,7 +93,7 @@ a {
             display: grid;
             place-items: center;
             color: var(--headerBGC);
-            padding: 20px;
+            padding: 4%;
 		}
 
         &__info {
@@ -101,7 +103,7 @@ a {
 
             text-align: center;
             color: var(--headerBGC);
-            padding: 20px;
+            padding: 4%;
 
 
             a {
@@ -156,7 +158,8 @@ a {
 
 .footer {
     background-color: var(--headerBGC);
-    padding: 40px;
+    padding: 10%;
+    height: 20%;
 }
 
 @keyframes arrow {
